@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.alegreya {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+
+body {
+    background-color: rgb(30, 71, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(91, 95, 93, 0.863);
+    border-radius: 10px;
+    box-shadow: rgb(6, 14, 0) 0px 3px 8px;
+    padding: 10px;
+}
+.form-container {
+    display: flex;
+}
+
+.form input {
+    padding: 1px;
+    border: none;
+    border-radius: 2px;
+    flex: 1;
+}
+
+.form button {
+    padding: 1px;
+    cursor: pointer;
+    margin-left: 8px;
+    min-width: 50px;
+    border-radius: 2px;
+}
+
+.clima { 
+    border-top: 2px solid rgb(255, 255, 255);
+    padding-top: 20px;
+    text-align: center;
+}
+
+.clima h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
